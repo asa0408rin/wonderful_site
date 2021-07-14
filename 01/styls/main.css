@@ -1,4 +1,61 @@
-div {
-  font-size: 32px;
+.top {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.top-hako {
+  width: 650px;
+  height: 425px;
+  padding: 32px 16px;
+  border: 6px solid black;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-hako .title {
+  font-size: 38x;
+  text-align: center;
+  height: 38px;
+  width: 500px;
+  margin: 10px auto;
+}
+
+.top-hako .title_body1 {
+  font-size: 22px;
+}
+
+.top-hako .title_body2 {
+  font-size: 22px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(40%, yellow));
+  background: linear-gradient(transparent 50%, yellow 40%);
+}
+
+.top-hako .link {
+  background-color: #07aae0;
+  margin: 10px auto;
+  width: 500px;
+  height: 50px;
+  border-radius: 9px;
+  line-height: 50px;
+}
+
+.top-hako a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-hako .caution1 {
+  font-size: small;
+}
+
+.top-hako .caution2 {
+  font-size: small;
+}
+
+.top-hako .caution3 {
+  font-size: small;
 }
 /*# sourceMappingURL=main.css.map */
